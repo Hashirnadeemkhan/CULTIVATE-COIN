@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Metrics() {
   return (
     <div >
-    <div className="relative">
-      <div className="relative max-w-7xl mx-auto px-4 mt-10">
+    <div className="relative mt-20 lg:mt-0">
+      <div className="relative max-w-7xl mx-auto px-4 m">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-0">
           {/* Projected Total Valuation */}
           <div className="flex flex-col items-center md:items-start px-6 py-4 relative">

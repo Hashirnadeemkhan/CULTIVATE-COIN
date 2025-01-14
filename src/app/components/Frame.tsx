@@ -55,7 +55,7 @@ export const Frame = (): JSX.Element => {
         </button>
 
         {/* Mobile Menu */}
-        {/* <nav
+        <nav
           className={`absolute right-0 top-0 z-10 flex h-screen w-64 flex-col items-center justify-center gap-6 bg-[#3d5d48] transition-transform duration-300 ease-in-out ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
@@ -68,7 +68,7 @@ export const Frame = (): JSX.Element => {
           <button className="mt-4 flex px-8 p-2 items-center justify-center rounded-[45px] bg-[#be8336]">
             <span className="text-[20px] font-medium text-white">Invest Here</span>
           </button>
-        </nav> */}
+        </nav>
 
         {/* Desktop Navigation */}
         <nav className="absolute left-[550px] top-[80px] hidden gap-[55px] lg:flex">

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+  overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('/fonts/Archivo-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/fonts/ClashDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-SemiBold.woff2') format('woff2');
+}
+

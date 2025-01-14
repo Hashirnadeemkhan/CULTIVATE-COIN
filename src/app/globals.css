@@ -8,6 +8,14 @@ html{
   overflow-x: hidden;
 }
 
+/* Custom CSS for small screens */
+@media (max-width: 768px) { /* Adjust the max-width value as per your definition of "small screens" */
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
 
 @font-face {
   font-family: 'Archivo';

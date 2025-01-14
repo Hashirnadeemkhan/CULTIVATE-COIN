@@ -9,7 +9,7 @@ export const Frame = (): JSX.Element => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden  lg:w-[1920px]">
+    <div className="relative min-h-screen w-full over lg:w-[1920px]">
       <div className="relative h-full w-full">
         {/* Background Layer */}
         <Image
@@ -85,7 +85,7 @@ export const Frame = (): JSX.Element => {
         </button>
 
         {/* Main Content */}
-        <div className="absolute min-h-screen left-0 top-[100px] flex w-full  flex-col items-center gap-[19px] px-4 text-center lg:left-[185px] lg:top-[220px] lg:w-auto lg:items-start lg:px-0 lg:text-left bg-[#3D5D48] lg:bg-transparent">
+        <div className="absolute min-h-screen left-0 top-[10px] flex w-full  flex-col items-center gap-[19px] px-4 text-center lg:left-[185px] lg:top-[220px] lg:w-auto lg:items-start lg:px-0 lg:text-left bg-[#3D5D48] lg:bg-transparent">
           <div>
             <p className="text-lg text-white mt-10">
               Invest in sustainable farming with our innovative RWA token.
@@ -128,7 +128,7 @@ export const Frame = (): JSX.Element => {
           <Image 
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero-home-Fo9cXwEUou6d536WWnxYdkWVwPMNtr.png"
             alt="Sustainable farming"
-            className="absolute left-1/2 top-[500px] h-[200px] w-[80%] -translate-x-1/2 rounded-lg object-cover lg:left-[860px] lg:top-[170px] lg:h-[356px] lg:w-[592px] lg:translate-x-0"
+            className="absolute left-1/2 top-[430px] h-[200px] w-[80%] -translate-x-1/2 rounded-lg object-cover lg:left-[860px] lg:top-[170px] lg:h-[356px] lg:w-[592px] lg:translate-x-0"
             width={592}
             height={356}
             priority

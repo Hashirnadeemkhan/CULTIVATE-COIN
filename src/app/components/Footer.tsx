@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full my-10 py-10 max-w-7xl mx-auto bg-[#3D5D48]">
+    <footer className="relative w-full my-10 py-10  max-w-7xl mx-auto bg-[#3D5D48] md:bg-transparent">
       {/* Background with angle */}
       <div
-        className="absolute inset-0 sm:block hidden rounded-3xl"
+        className="absolute inset-0  rounded-3xl"
         style={{
           backgroundImage: 'url("/footer.png")',
           backgroundSize: "cover",
@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
           {/* Logo and Description Section */}
           <div className="md:col-span-4">
-           <div className="absolute sm:top-8 lg:-top-14  md:-ml-2 left-5 lg:left-20 -top-14 z-10 rounded-full bg-black ">
+           <div className="absolute sm:-top-14 sm:left-10 lg:-top-14  md:-ml-2 left-5 lg:left-20 -top-14 z-10 rounded-full bg-black ">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-vmu5Nvy2iGYYCV1bLjAiUDaOzQ6snz.png"
                 alt="Logo"
@@ -116,11 +116,11 @@ export default function Footer() {
           </div>
         </div>
 
-      <p className="border border-gray-400 mt-4"></p>
+      <p className="border sm:hidden block border-gray-400 mt-4"></p>
       </div>
       <div className="relative ">
         {/* Copyright */}
-        <div className=" text-center text-sm absolute sm:right-28 sm:-top-5 md:text-black -top-2 right-10 text-white">
+        <div className=" text-center text-sm absolute lg:right-28 sm:right-5 sm:top-5 lg:-top-5 md:text-black -top-2 right-10 text-white">
           ©2025 CultivateCoin Ltd. All rights reserved.
         </div>
         </div>

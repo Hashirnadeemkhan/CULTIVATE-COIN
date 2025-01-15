@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Facebook, Linkedin, Twitter } from 'lucide-react'
+
 
 interface TeamSection {
   name: string

@@ -37,7 +37,7 @@ export default function Timeline() {
                 {/* Connector line */}
                 {index < steps.length - 1 && (
                   <div className="hidden md:block absolute top-8 left-[60%] w-full h-[2px]">
-                    <div className="w-full border-t-2 border-dashed border-[#5B7161]"></div>
+                    <div className="w-full border-t-2 border-dashed border-white"></div>
                   </div>
                 )}
               </div>

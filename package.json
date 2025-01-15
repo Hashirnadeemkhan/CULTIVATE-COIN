@@ -27,7 +27,7 @@
     "reactfire": "^4.2.3",
     "sharp": "^0.33.5",
     "sweetalert2": "^11.14.5",
-    "swiper": "^11.1.14",
+    "swiper": "^11.2.1",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },

@@ -36,7 +36,7 @@ export default function InvestorBenefits() {
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16">
-        {benefits.map((benefit, index) => {
+        {benefits.map((benefit) => {
           const Icon = benefit.icon
           // Apply special grid positioning for last two items
         //   const gridClass = index >= 3 ? "md:col-start-2 md:col-span-1 " : ""

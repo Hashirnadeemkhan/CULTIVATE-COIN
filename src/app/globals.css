@@ -32,3 +32,15 @@ html{
   src: url('/fonts/Montserrat-SemiBold.woff2') format('woff2');
 }
 
+.flex.items-center.justify-between.navbar.w-full {
+  display: flex
+;
+  /* margin-left: 30% !important; */
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+.inv{
+  margin-top: 600%;
+}

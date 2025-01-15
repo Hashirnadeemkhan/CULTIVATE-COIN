@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function CultivateCoin() {
   return (
-    <main className="min-h-screen relative max-w-7xl mx-auto">
+    <main className=" relative max-w-7xl mx-auto mt-20">
       {/* Green decorative background */}
       <div className="absolute inset-0 mt-20">
         <Image
@@ -10,7 +10,7 @@ export default function CultivateCoin() {
           alt="Decorative green background"
           width={1700}
           height={500}
-          className="w-[1708px] lg:h-[257.5px] h-[150px]"
+          className="w-[1708px] lg:h-[257.5px] h-[150px] hidden md:block"
           priority={true}
         />
       </div>
@@ -54,8 +54,8 @@ export default function CultivateCoin() {
             <div className="md:col-span-5 lg:mt-10 mt-0  md:pl-8 flex items-center flex-col">
               <div className="w-full space-y-5">
                 {/* Green box for heading */}
-                <div className=" md:text-white text-green-800 rounded-xl py-6 lg:mb-4">
-                  <h1 className="md:text-xl lg:text-4xl text-2xl md:text-center text-center font-bold lg:mt-0 mt-5">
+                <div className="  rounded-xl md:py-6 py-4  lg:mb-4 bg-[#3D5D48] md:bg-transparent ">
+                  <h1 className="md:text-xl lg:text-4xl text-2xl md:text-center text-center font-bold sm:mt-5 lg:mt-0  bg-gradient-to-b from-white to-[#fde3c0] bg-clip-text text-transparent ">
                     What is Cultivate Coin?
                   </h1>
                 </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Metrics() {
   return (
     <div >
-    <div className="relative mt-20 lg:mt-0">
+    <div className="relative mt-28  ">
       <div className="relative max-w-7xl mx-auto px-4 m">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-0">
           {/* Projected Total Valuation */}
@@ -14,7 +14,7 @@ export default function Metrics() {
               Projected Total <br /> Valuation
             </p>
             {/* Vertical border */}
-            <div className="hidden md:block absolute right-10 top-1/2 -translate-y-1/2 h-28 w-[1px] bg-green-800" />
+            <div className="w-52 h-1 top-32 absolute lg:right-12 sm:right-3 md:top-1/2 -translate-y-1/2 md:h-28 md:w-[1px] bg-green-800" />
           </div>
 
           {/* Equity Offered */}
@@ -24,7 +24,7 @@ export default function Metrics() {
               Equity Offered Across <br /> Both Phases
             </p>
             {/* Vertical border */}
-            <div className="hidden md:block absolute right-10 top-1/2 -translate-y-1/2 h-28 w-[1px] bg-green-800" />
+            <div className=" w-52 h-1 top-32 absolute lg:right-10 sm:right-6  md:top-1/2 -translate-y-1/2 md:h-28 md:w-[1px] bg-green-800" />
           </div>
 
           {/* Funds Secured */}
@@ -34,7 +34,7 @@ export default function Metrics() {
               Funds Secured by Smart Contracts
             </p>
             {/* Vertical border */}
-            <div className="hidden md:block absolute right-10 top-1/2 -translate-y-1/2 h-28 w-[1px] bg-green-800" />
+            <div className="w-52 h-1 top-32  absolute md:right-8 right-16 md:top-1/2 -translate-y-1/2 md:h-28 md:w-[1px] bg-green-800" />
           </div>
 
           {/* Stablecoin */}
@@ -48,7 +48,7 @@ export default function Metrics() {
           </div>
         </div>
       </div>
-      <div className="absolute -top-40 -right-32 lg:block hidden h-[900px]">
+      <div className="absolute -top-40 -right-32 lg:block hidden h-[900px] ">
         <Image
           src="https://c.animaapp.com/ocFPXCNG/img/layer-1.svg"
           alt="Layer"
